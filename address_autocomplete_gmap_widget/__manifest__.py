@@ -18,7 +18,6 @@
     # always loaded
     'data': [
         'views/res_config_settings_view.xml',
-        'views/res_partner_test.xml'
     ],
     "assets": {
         "web.assets_backend": [
