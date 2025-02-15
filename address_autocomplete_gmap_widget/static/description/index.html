@@ -1,0 +1,89 @@
+<div class="container">
+    <h1>Google Map Address Autocomplete Widget</h1>
+
+    <div class="section">
+        <h2>Overview</h2>
+        <p>
+            This module, <code>address_autocomplete_gmap_widget</code>, integrates Odoo version 18 with Google Map. Enhances Odoo address fields with real-time Google Maps address suggestions, improving data entry accuracy and speed.  Retrieves detailed address components and geocodes addresses. Requires a Google Maps API key
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Features</h2>
+        <ul>
+            <li><strong>Address Suggestions:</strong> Automatically suggests addresses as the user types in the input field. This helps avoid typos and ensures standardized, complete addresses.</li>
+            <li><strong>Search Accuracy:</strong> Provides highly accurate address suggestions based on Google's vast location data, including street names, cities, landmarks, and more.</li>
+            <li><strong>Interactive Map:</strong> Displays a Google Map, showing the selected address location with zoom and pan functionality.</li>
+            <li><strong>Auto-zooming and Centering:</strong> Once an address is selected, the map will automatically zoom in on the location and center the map to display the relevant area clearly.
+            </li>
+            <li><strong>Latitude and Longitude:</strong>Along with the address, the module can capture and store the latitude and longitude coordinates of the selected address.</li>
+            <li><strong>Coordinate Storage:</strong> These coordinates can be stored in the Odoo model, allowing for easy retrieval and further usage.</li>
+        </ul>
+    </div>
+
+    <section class="oe_container oe_mt32">
+        <div class="oe_row oe_spaced">
+            <h2 class="oe_slogan fw-bold" style="color:#3c3ce3;">Requirements</h2>
+            <div class="oe_span12">
+                <p class="oe_mt32 oe_mb32">
+                    <b>
+                        Google Map Api Key
+                    </b>
+                    <br/>
+                    <code>
+                        Generate google map api key <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">Docs</a>.
+                    </code>
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="section">
+        <h2>Installation</h2>
+        <p>
+            To install the <code>address_autocomplete_gmap_widget</code> module, follow these steps:
+        </p>
+        <ol>
+            <li>Place the module directory (<code>address_autocomplete_gmap_widget</code>) in your Odoo addons path.</li>
+            <li>In your Odoo instance, go to Apps and search for "Address Autocomplete Widget".</li>
+            <li>Click "Install" to install the module.</li>
+        </ol>
+    </div>
+
+
+    <div class="section">
+        <h2>Configuration</h2>
+        <p>
+            After installation, you need to configure the connection to the Google Mapi API.
+        </p>
+        <ol>
+            <li>Go to the module's configuration settings (typically under Settings -> Google Map).</li>
+            <li>Enter your Google Map API key. <span style="color:red;">(Keep this secure!)</span></li>
+
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>Example</h2>
+        <b>Configure api key</b>
+        <img class='img-responsive w-75 mx-auto my-5' src="api_key.png"/>
+        <b>Create a field for storing coordinate</b>
+        <img class='img-responsive w-75 mx-auto my-5' src="fields.png"/>
+        <b>How to use this field in view</b>
+        <img class='img-responsive w-75 mx-auto my-5' src="view.png"/>
+        <b>How it's autocomplete address</b>
+        <img class='img-responsive w-75 mx-auto my-5' src="autocomplete.png"/>
+        <b>How it's set marker on map</b>
+        <img class='img-responsive w-75 mx-auto my-5' src="marker.png"/>
+    </div>
+
+
+    <div class="section">
+        <h2>Support</h2>
+        <p>For support or bug reports, please contact</p>
+        <ul>
+            <li><strong>Gmail:</strong> dhrushilpatel2000@gmail.com</li>
+            <li><strong>Linkdin:</strong> www.linkedin.com/in/dhrushil-patel-72a42220a</li>
+        </ul>
+    </div>
+
+</div>
